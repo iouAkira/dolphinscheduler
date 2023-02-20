@@ -121,7 +121,7 @@ const StreamTaskDefinition = defineComponent({
                 v-model:page-size={variables.pageSize}
                 page-count={variables.totalPage}
                 show-size-picker
-                page-sizes={[10, 30, 50]}
+                page-sizes={[50, 100, 150]}
                 show-quick-jumper
                 onUpdatePage={getTableData}
                 onUpdatePageSize={onUpdatePageSize}

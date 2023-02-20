@@ -153,7 +153,7 @@ export function useVersion() {
     columns: [],
     tableData: [],
     page: ref(1),
-    pageSize: ref(10),
+    pageSize: ref(50),
     totalPage: ref(1),
     taskVersion: ref(null),
     taskCode: ref(null),

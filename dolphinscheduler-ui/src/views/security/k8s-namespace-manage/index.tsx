@@ -146,7 +146,7 @@ const k8sNamespaceManage = defineComponent({
                 v-model:page-size={this.pageSize}
                 page-count={this.totalPage}
                 show-size-picker
-                page-sizes={[10, 30, 50]}
+                page-sizes={[50, 100, 150]}
                 show-quick-jumper
                 onUpdatePage={requestData}
                 onUpdatePageSize={onUpdatePageSize}

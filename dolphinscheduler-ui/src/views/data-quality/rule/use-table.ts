@@ -32,7 +32,7 @@ export function useTable(viewRuleEntry = (unusedRuleJson: string): void => {}) {
   const variables = reactive({
     tableData: [],
     page: ref(1),
-    pageSize: ref(10),
+    pageSize: ref(50),
     state: ref(null),
     searchVal: ref(null),
     totalPage: ref(1),
